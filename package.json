@@ -9,9 +9,9 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
-  "homepage":"https://ramyashreev19.github.io/MyPortfolio",
+  "homepage": "https://ramyashreev19.github.io/MyPortfolio",
   "dependencies": {
     "react": "^19.0.0",
     "react-anchor-link-smooth-scroll": "^1.0.12",
