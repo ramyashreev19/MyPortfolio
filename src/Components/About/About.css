@@ -1,0 +1,133 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  margin: 80px auto;
+  max-width: 1000px;
+  padding: 0 20px;
+}
+
+.about-title {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.about-title h1 {
+  padding: 0px 30px;
+  font-size: 80px;
+  font-weight: 600;
+}
+
+.about-title img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.about-education {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 100%;
+  max-width: 800px;
+}
+
+.edu-card {
+  background: #1a1a1a;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  padding: 30px;
+  width: 100%;
+  transition: 0.4s ease;
+  box-shadow: 0 0 20px rgba(180, 21, 255, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.edu-header {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.edu-header h3 {
+  font-size: 24px;
+  color: #ffffff;
+  background:  linear-gradient(270deg, #df8908 50%, #b415ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.edu-details {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.edu-details p {
+  font-size: 18px;
+  color: #ccc;
+  margin: 0;
+}
+
+.edu-details span {
+  font-size: 16px;
+  color: #999;
+  margin-top: 5px;
+}
+
+.edu-description {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 15px;
+}
+
+.edu-description p {
+  font-size: 18px;
+  color: #bbb;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.edu-card:hover {
+  transform: translateY(-10px);
+  border: 2px solid #b415ff;
+  box-shadow: 0 0 30px rgba(180, 21, 255, 0.3);
+}
+
+@media (max-width: 768px) {
+  .about {
+    gap: 40px;
+    margin: 50px auto;
+  }
+  
+  .about-title h1 {
+    font-size: 50px;
+    padding: 0;
+  }
+  
+  .about-title img {
+    width: 130px;
+    right: -20px;
+  }
+  
+  .edu-card {
+    padding: 20px;
+  }
+  
+  .edu-header h3 {
+    font-size: 20px;
+  }
+  
+  .edu-details p {
+    font-size: 16px;
+  }
+  
+  .edu-description p {
+    font-size: 16px;
+  }
+}
