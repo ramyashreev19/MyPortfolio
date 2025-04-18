@@ -9,12 +9,15 @@
 
 .projects-title {
   position: relative;
+
 }
 
 .projects-title h1 {
   padding: 0px 30px;
   font-size: 80px;
   font-weight: 600;
+ 
+  
 }
 
 .projects-title img {
@@ -109,6 +112,7 @@
   .projects-title h1 {
     padding: 0;
     font-size: 50px;
+   
   }
   
   .projects-title img {
