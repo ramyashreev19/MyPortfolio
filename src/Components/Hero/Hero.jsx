@@ -11,7 +11,9 @@ const Hero = () => {
         <span> I'm Ramya Shree V,</span> an aspiring software developer
       </h1>
       <p>
-      I'm a passionate and curious developer eager to build meaningful experiences and continuously grow through hands-on learning and collaboration.
+        I'm a passionate and curious developer eager to build meaningful
+        experiences and continuously grow through hands-on learning and
+        collaboration.
       </p>
       <div className="hero-action">
         <div className="hero-connect">
@@ -19,17 +21,15 @@ const Hero = () => {
             Connect With Me
           </AnchorLink>
         </div>
-      <div className="hero-resume">
-            <a
-              href="https://drive.google.com/file/d/1p4lVcTnm0NlZ9OubSusrazvhjsj9Cm9r/view?usp=sharing"
-              target="_blank"
-              rel="noopener noreferrer"
-              
-            >
-              My Resume
-            </a>
-      </div>
-
+        <div className="hero-resume">
+          <a
+            href="https://drive.google.com/file/d/1p4lVcTnm0NlZ9OubSusrazvhjsj9Cm9r/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            My Resume
+          </a>
+        </div>
       </div>
     </div>
   );
